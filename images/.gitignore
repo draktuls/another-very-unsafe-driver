@@ -1,0 +1,4 @@
+initramfs.cpio.gz
+bzImage*
+vmLinux*
+vmlinux*

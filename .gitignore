@@ -1,0 +1,13 @@
+# No compilation artifacts
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+*.order
+*.symvers
+*.order.cmd
+*.symvers.cmd
+
+# WIP
+
