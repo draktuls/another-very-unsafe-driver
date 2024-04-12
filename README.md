@@ -5,7 +5,7 @@ The point of this project is to provide a learning opportunity for exploit devel
 
 This isnt a novel idea and there are other great projects such as [HEVD](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver/tree/master). But this focuses on Linux Kernel only.
 
-This is just a small project and a utility in case I want to research stuff in an easy isolated environment without any other limitations.
+This is just a small school project and utility in case I want to research stuff in an easy isolated environment without any other limitations.
 
 # Getting Started <a name = "getting_started"></a>
 
@@ -76,10 +76,12 @@ The module contains these vulnerabilities:
 - Buffer overflow and underflow (heap and stack)
 - Integer overflow leading to bof on stack
 - Out of bound reads (heap and stack)
-- Race conditions (Not directly researched, there are just no locks)
+- Race conditions (Not intentionally developed, there are just no locks)
 - Type confusion (heap note)
-- UAF (heap not)
-- Double free (heap not)
+- UAF (heap note)
+- Double free (heap note)
+
+Each vulnerable section should have a comment above it describing it. But it is possible that some are missing, which can be fixed.
 
 # Deployment <a name = "deployment"></a>
 I beg you, do not deploy this on any real system.
